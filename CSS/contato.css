@@ -1,0 +1,105 @@
+html {
+  background-image: url(../images/PATTERN-2.png);
+}
+
+.header {
+  height: 20.8rem;
+  background-image: url(../images/FOTO-DENTRO-BLOG.png);
+
+  margin-bottom: 10.0rem;
+}
+
+/* ########## start form styles ########## */
+.help-form {
+  background-color: var(--bc-formColor);
+  width: 35.3rem;
+
+  margin: 0 auto;
+
+  border-radius: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: 0;
+}
+
+legend {
+  font-family: var(--ff-font-title);
+  font-size: 5.5rem;
+  text-align: center;
+  letter-spacing: -0.02em;
+  line-height: 6.6rem;
+
+  padding: 2.6rem 3.3rem 1.5rem;
+}
+
+.contain-input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.0rem;
+}
+
+.input-box input {
+  width: 32.2rem;
+  height: 5.0rem;
+
+  border-radius: 5px;
+  border: 0;
+
+  font-size: 1.8rem;
+  font-family: var(--ff-font-ezra-light);
+  line-height: 3.2rem;
+  letter-spacing: -0.02em;
+
+  text-align: center;
+}
+
+textarea {
+  width: 32.2rem;
+  height: 20.6rem;
+
+  border: 0;
+  border-radius: 5px;
+
+  font-size: 1.8rem;
+  font-family: var(--ff-font-ezra-light);
+  line-height: 3.2rem;
+  letter-spacing: -0.02em;
+
+  padding-left: 1.8rem;
+  padding-top: 1.8rem;
+}
+
+button {
+  background-color: var(--cc-orange-dark);
+  margin: 4.6rem auto 5.4rem;
+
+  border-radius: 5px;
+  border: 0;
+}
+
+button input {
+  background-color: var(--cc-orange-dark);
+  color: #FFFFFF;
+
+  width: 18.5rem;
+  height: 5.0rem;
+  padding: 0;
+  border-radius: 5px;
+  border: 0;
+  
+
+  font-size: 1.8rem;
+  font-family: 'Ezra-medium', cursive;
+  font-weight: 600;
+  line-height: 3.2rem;
+}
+
+.newsletter {
+  margin-top: 14.7rem;
+}
+/* ########## end form styles ########## */

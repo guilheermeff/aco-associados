@@ -1,0 +1,55 @@
+.header {
+  height: 11.1rem;
+  background-image: url(../images/FOTO-ACO.png);
+  background-position-x: -4.9rem;
+
+  margin-bottom: 10.0rem;
+}
+
+.stickers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1.6rem;
+
+  margin-bottom: 12.8rem;
+}
+
+.background-tittle {
+  background-color: var(--cc-orange-primary);
+
+  width: 24.4rem;
+  margin: 0 auto;
+}
+
+.background-tittle h2 {
+  font-family: var(--ff-font-title);
+  font-size: 6.4rem;
+  line-height: 6.4rem;
+  font-weight: 100;
+  letter-spacing: -0.02em;
+
+  text-align: center;
+
+  margin-bottom: 3.2rem;
+}
+
+.text p,
+.text ul {
+  font-family: var(--ff-font-ezra-light);
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+  letter-spacing: -0.02em;
+}
+
+.text p {
+  width: 33.7rem;
+  margin: 0 auto 10.0rem;
+}
+
+.text ul {
+  width: 29.8rem;
+  margin: 0 auto 16.0rem;
+}

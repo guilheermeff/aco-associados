@@ -1,0 +1,188 @@
+.top {
+  background-image: url(../images/VT\ PRINCIPAL.jpg);
+  background-color: #E56A0B;
+  background-size: cover;
+  background-position-x: -27.5rem;
+
+  height: 47.0rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 6.5rem;
+  padding-bottom: 16.6rem;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 7.0rem;
+}
+
+.top h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+
+  font-size: 5.5rem;
+  font-weight: 100;
+  line-height: 6.6rem;
+  letter-spacing: -0.02em;
+}
+
+.top h2 {
+  font-family: 'Bebas Neue', sans-serif;
+
+  font-size: 3.0rem;
+  line-height: 3.6rem;
+
+  letter-spacing: -0.02em;
+
+  margin-bottom: 2.7rem;
+}
+
+.top a {
+  font-family: var(--ff-font-ezra-bold);
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+  text-decoration: none;
+
+
+  padding: 0.9rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 8px;
+  letter-spacing: -0.02em;
+
+  background-color: var(--cc-orange-dark); 
+  color: #FFFFFF;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  top: -3.3rem;
+
+  gap: 2.9rem;
+
+  width: 33.0rem;
+
+  margin: 0 auto;
+}
+
+.card {
+  padding: 1.6rem 2.9rem 1.1rem;
+  
+  border-radius: 2.5rem;
+}
+
+.cards div:nth-child(1) {
+  background-color: var(--cc-orange-primary);
+}
+.cards div:nth-child(2) {
+  background-color: var(--cc-orange-dark);
+}
+.cards div:nth-child(3) {
+  background-color: var(--cc-orange-light);
+}
+
+.card img {
+  position: relative;
+  left: -1.3rem;
+}
+
+.card h2 {
+  font-family: var(--ff-font-title);
+  font-size: 4.2rem;
+  line-height: 5.0rem;
+  letter-spacing: -0.02em;
+  font-weight: 100;
+}
+
+
+.card p {
+  font-family: var(--ff-font-ezra-light);
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 2.2rem;
+  letter-spacing: -0.02em;
+  
+  width: 100%;
+  height: 14.0rem;
+}
+
+.cards div:nth-child(2) p {
+  margin-top: 1.0rem;
+}
+
+.welcome {
+  margin-bottom: 13.0rem;
+}
+
+.welcome img {
+  width: 100%;
+
+  margin-bottom: 6.0rem;
+}
+
+.welcome-text {
+  padding-left: 4.3rem;
+  padding-right: 2.7rem;
+}
+
+.welcome-text h3 {
+  color: var(--cc-orange-primary);
+
+  font-family: var(--ff-font-title);
+  font-size: 5.5rem;
+  font-weight: 100;
+  line-height: 6.6rem;
+  
+  letter-spacing: -0.02em;
+}
+
+.welcome-text p {
+  font-family: var(--ff-font-ezra-light);
+  font-size: 1.3rem;
+  line-height: 3.0rem;
+  letter-spacing: -0.02em;
+
+  margin-bottom: 5.0rem;
+}
+
+.welcome-text a {
+  font-family: var(--ff-font-ezra-bold);
+  font-size: 2.0rem;
+  text-decoration: none;
+  line-height: 2.5rem;
+  letter-spacing: -0.02em;
+
+  padding: .6rem 2.2rem 0.2rem;
+  border-radius: 5px;
+
+  background-color: var(--cc-orange-dark);
+  color: #FFFFFF;
+}
+
+.instagram {
+  background-image: url(../images/insta-background.png);
+  background-color: var(--cc-orange-primary);
+
+  width: 100%;
+
+  padding: 3.2rem;
+
+  margin-bottom: 13.5rem;
+}
+
+.insta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+
+.instagram img {
+  width: 100%;
+}
