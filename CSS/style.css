@@ -373,81 +373,11 @@ footer p {
   }
 
   header {
-    background-image: url(../images/VT\ PRINCIPAL.jpg);
-    background-size: cover;
-
-    height: 62rem;
-    align-items: flex-start;
-
-    display: block;
+    height: 9.0rem;
   }
 
-  .box-nav-menu {
-    padding: 4.0rem 6.0rem;
-    justify-content: space-between;
-  }
-
-  .top {
-    display: none;
-  }
-
-  .cards {
-    flex-direction: row;
-    top: -5.5rem;
-    gap: 1.8rem;
-
-    width: 100%;
-    justify-content: center;
-  }
-
-  .card p {
-    width: 27.0rem;
-  }
-
-  .welcome img {
-    width: 50%;
-  }
-
-  div .office-photo {
-    display: block;
-  }
-
-  .welcome-text {
-    width: 48.5%;
-  }
-
-  .welcome-text h3 {
-    font-weight: 400;
-    font-size: 6.4rem;
-  }
-
-  .welcome-text p {
-    font-size: 1.8rem;
-    line-height: 3.2rem;
-    letter-spacing: -0.02em;
-  }
-
-  .newsletter {
-    display: flex;
-    margin-bottom: 18.5rem;
-
-    width: 70%;
-  }
-
-  .newsletter-image {
-    height: 29.4rem;
-  }
-
-  .newsletter-image img {
-    left: -4.5rem;
-  }
-
-  .information-box {
-    flex-direction: row;
-  }
-
-  footer {
-    padding: 2.75rem 7.0rem 1.0rem;
+  header .box-nav-menu {
+    padding: 0;
   }
 }
 

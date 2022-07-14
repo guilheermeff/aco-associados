@@ -186,3 +186,27 @@
 .instagram img {
   width: 100%;
 }
+
+@media(min-width: 1000px){
+
+  header {
+    background: transparent;
+  }
+
+  main .top {
+    background-position-x: 0;
+    height: 72.0rem;
+    width: 100vw;
+
+    padding: 0;
+    position: relative;
+    top: -8.123rem;
+
+    z-index: -10;
+  }
+
+  main .top .box-1,
+  main .top a {
+    display: none;
+  }
+}
