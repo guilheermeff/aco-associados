@@ -337,6 +337,7 @@ footer p {
   .orange-bar {
     width: 100%;
     height: 2.6rem;
+    padding: 0 8.4rem;
   
     background-color: var(--cc-orange-primary);
   
@@ -360,10 +361,7 @@ footer p {
   
     margin: 0 auto;
   
-    padding: 0 8.0rem;
-  
     width: 100%;
-    max-width: 128.0rem;
   }
 
   .box {
@@ -373,11 +371,16 @@ footer p {
   }
 
   header {
-    height: 9.0rem;
+    height: 13.8rem;
   }
 
   header .box-nav-menu {
-    padding: 0;
+    padding: 2.0rem 8.4rem;
+  }
+
+  header .box-nav-menu a svg {
+    width: 27.6rem;
+    height: 9.0rem;
   }
 }
 

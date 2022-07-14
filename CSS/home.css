@@ -200,7 +200,7 @@
 
     padding: 0;
     position: relative;
-    top: -8.123rem;
+    top: -13.8rem;
 
     z-index: -10;
   }
@@ -208,5 +208,14 @@
   main .top .box-1,
   main .top a {
     display: none;
+  }
+
+  .cards {
+    top: -18.0rem;
+
+    flex-direction: row;
+
+    width: 100%;
+    padding: 0 15.3rem;
   }
 }
