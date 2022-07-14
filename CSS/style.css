@@ -169,14 +169,7 @@ header nav ul li a:hover {
 }
 
 .newsletter-form p {
-  font-family: var(--ff-font-ezra-light);
-  font-size: 1.4rem;
-  font-weight: 300;
-  line-height: 1.8rem;
-
-  color: #FFFFFF;
-
-  margin-bottom: 2.6rem;
+  display: none;
 }
 
 .inputs-form input {
@@ -386,7 +379,79 @@ footer p {
   .newsletter {
     display: flex;
   }
+
+  .newsletter-form legend {
+    font-family: var(--ff-font-title);
+    font-size: 3.2rem;
+    line-height: 3.9rem;
+    letter-spacing: -0.02em;
   
+    color: #FFFFFF;
+  
+    margin-bottom: 3px;
+
+    text-align: start;
+  }
+  
+  .newsletter .newsletter-image {
+    width: 41.3rem;
+  }
+  
+  .newsletter .newsletter-form {
+    width: 52.0rem;
+  }
+  
+  .newsletter-form p {
+    font-family: var(--ff-font-ezra-light);
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+
+    color: #FFFFFF;
+
+    margin-bottom: 2.6rem;
+
+    display: block;
+  }
+
+  .inputs-form input {
+    width: 44.5rem;
+    height: 4.5rem;
+    border-radius: 5px;
+    border: 0;
+  
+    padding-left: 2.0rem;
+  
+    margin-bottom: 1.5rem;
+  
+    font-family: var(--ff-font-ezra-light);
+    font-size: 1.4rem;
+  }
+
+  #btn-submit {
+    border: 0;
+  
+    color: #FFFFFF;
+    background-color: var(--cc-orange-dark);
+  
+    margin: 0;
+    padding: 0;
+  
+    cursor: pointer;
+  
+    font-family: var(--ff-font-ezra-bold);
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+  }
+
+  #btn-submit:hover {
+    background-color: var(--cc-btn-submit-hover);
+  }
+
+  .information-box {
+    flex-direction: row;
+  }
 }
 
 @keyframes navLinksFade {
