@@ -72,7 +72,7 @@
   margin: 0 auto;
 }
 
-.card {
+.cards .card {
   padding: 1.6rem 2.9rem 1.1rem;
   
   border-radius: 2.5rem;
@@ -125,6 +125,10 @@
   width: 100%;
 
   margin-bottom: 6.0rem;
+}
+
+.welcome .office-photo {
+  display: none;
 }
 
 .welcome-text {
@@ -214,8 +218,63 @@
     top: -18.0rem;
 
     flex-direction: row;
+    justify-content: center;
 
     width: 100%;
     padding: 0 15.3rem;
+
+    gap: 1.3rem;
+  }
+
+  .cards .card {
+    width: 31.6rem;
+  }
+
+  .cards .card img {
+    margin-bottom: .9rem;
+  }
+
+  .cards .card h2 {
+    font-size: 3.27rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .cards .card p {
+    font-size: 1.4rem;
+
+    height: 15.0rem;
+    line-height: 2.5rem;
+
+    margin-bottom: 2.8rem;
+  }
+
+  .welcome .theater-photo {
+    width: 67.9rem;
+  }
+
+  .welcome .office-photo {
+    display: block;
+    width: 57.1rem;
+  }
+
+  .welcome .welcome-text {
+    padding: 0;
+
+    width: 52.4rem;
+  }
+
+  .welcome .welcome-text h3 {
+    font-size: 6.4rem;
+    line-height: 7.7rem;
+  }
+
+  .welcome .welcome-text p {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+  }
+
+  .welcome .welcome-text a {
+    font-size: 1.4rem;
+    border-radius: 4px;
   }
 }
