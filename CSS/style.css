@@ -382,6 +382,11 @@ footer p {
     width: 27.6rem;
     height: 9.0rem;
   }
+
+  .newsletter {
+    display: flex;
+  }
+  
 }
 
 @keyframes navLinksFade {
