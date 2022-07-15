@@ -4,9 +4,15 @@ html {
 
 .header {
   height: 20.8rem;
+
   background-image: url(../images/FOTO-DENTRO-BLOG.png);
+  background-size: cover;
 
   margin-bottom: 10.0rem;
+}
+
+.information-box {
+  display: none;
 }
 
 /* ########## start form styles ########## */
@@ -22,11 +28,11 @@ html {
   flex-direction: column;
 }
 
-fieldset {
+.help-form fieldset {
   border: 0;
 }
 
-legend {
+.help-form legend {
   font-family: var(--ff-font-title);
   font-size: 5.5rem;
   text-align: center;
@@ -98,8 +104,121 @@ button input {
   font-weight: 600;
   line-height: 3.2rem;
 }
-
-.newsletter {
-  margin-top: 14.7rem;
-}
 /* ########## end form styles ########## */
+
+@media(min-width: 1000px) {
+
+  header {
+    background-color: #FFFFFF;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 52.0rem;
+
+    background-image: url(../images/header-contatos.png);
+
+    margin: 0;
+  }
+
+  .information-box {
+    display: flex;
+
+    position: relative;
+    top: -8.0rem;
+
+    background-color: var(--cc-orange-primary);
+
+    margin: 0 auto 15.8rem;
+  }
+
+  .help-form {
+    background-color: var(--bc-formColor);
+    width: 92.5rem;
+    margin: 0 auto 19rem;
+    border-radius: 1.5rem;
+    padding: 8.2rem 9.5rem 6.7rem 7.0rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .help-form fieldset {
+    max-width: 76rem;
+    margin: 0 auto 6rem;
+    border: none;
+  }
+
+  .help-form legend {
+    font-family: var(--ff-font-title);
+    font-size: 6.4rem;
+
+    margin-bottom: 5rem;
+
+    text-align: left;
+
+    padding: 0;
+  }
+
+  .contain-input-box {
+    display: grid;
+    grid-template-columns: 370px 370px;
+    grid-gap: 2rem;
+  }
+
+  .input-box input {
+    width: 37rem;
+    height: 5rem;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 2rem;
+    font-family: var(--ff-font-ezra-light);
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+
+    text-align: left;
+
+    margin-bottom: 0.7rem;
+  }
+
+  textarea {
+    width: 76rem;
+    height: 19rem;
+    border-radius: 5px;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    font-family: var(--ff-font-ezra-light);
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+  }
+
+  .help-form button {
+    background-color: var(--cc-orange-dark);
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 0;
+  }
+
+  .btn-submit {
+    background-color: var(--cc-orange-dark);
+    color: #FFFFFF;
+    width: 18.5rem;
+    height: 5rem;
+    padding: 0;
+    border-radius: 5px;
+    border: 0;
+    font-size: 1.8rem;
+    font-family: 'Ezra-medium', cursive;
+    font-weight: 600;
+    line-height: 3.2rem;
+  }
+
+  .btn-submit:hover {
+    background-color: var(--cc-btn-submit-hover);
+    cursor: pointer;
+  }
+}
