@@ -1,3 +1,71 @@
+
+.header {
+  background-image: url(../images/header-escritorio.png);
+  height: 11.0rem;
+  
+  margin-bottom: 23.0rem;
+}
+
+.infos-about {
+  display: flex;
+  flex-direction: column;
+  gap: 15.0rem;
+}
+
+.infos-about div:nth-child(2) {
+  margin-bottom: 20.0rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1.5rem;
+}
+
+.content p,
+.content img {
+  width: 80%;
+}
+
+.content p {
+  font-family: var(--ff-font-ezra-light);
+  font-size: 1.3rem;
+  line-height: 3.0rem;
+  letter-spacing: -0.02em;
+
+}
+
+.profile-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1.5rem;
+  margin-bottom: 20.0rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 1.0rem;
+}
+
+.profile-name {
+  position: relative;
+  top: -4.5rem;
+  
+  background-color: var(--cc-orange-primary);
+  height: 16.3rem;
+  width: 80%;
+  border-radius: 5px;
+}
+
 @media (min-width: 1000px){
   header {
     background-color: #FFFFFF;

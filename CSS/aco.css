@@ -17,6 +17,11 @@
   margin-bottom: 12.8rem;
 }
 
+.header svg,
+.wrapper svg {
+  display: none;
+}
+
 .background-tittle {
   background-color: var(--cc-orange-primary);
 
@@ -55,7 +60,103 @@
 }
 
 @media (min-width: 1000px){
+  
   header {
     background-color: #FFFFFF;
+  }
+  
+  .header svg,
+  .wrapper svg {
+    display: block;
+  }
+
+  .header {
+    background-image: url(../images/header-page-aco.png);
+    background-position-x: 0;
+    height: 24.0rem;
+
+    margin-bottom: 13.5rem;
+  }
+
+  .header svg:nth-child(1) {
+    position: absolute;
+    left: 15.3rem;
+    top: 24.3rem;
+  }
+
+  .header svg:nth-child(2) {
+    position: absolute;
+    left: 24.3rem;
+    top: 24.8rem;
+  }
+
+  .soft-line {
+    margin-bottom: 5.3rem;
+  }
+
+  .acting {
+    margin-bottom: 30.0rem;
+  }
+
+  .stickers {
+    flex-direction: row;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10.0rem;
+
+    margin-bottom: 21.8rem;
+  }
+
+  .group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text p,
+  .text ul {
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+  }
+
+  .background-tittle {
+    position: relative;
+  }
+
+  #tittle-1 {
+    left: 15.2rem;
+  }
+
+  .group .text p {
+    position: absolute;
+    top: 123.1rem;
+    left: 15.2rem;
+
+    width: 47.9rem;
+  }
+
+  .balance-photo img {
+    position: absolute;
+    left: 53.4rem;
+    top: 111.6rem;
+  }
+
+  .hammer-photo img {
+    position: absolute;
+    left: 0;
+    top: 2511px;
+  }
+
+  .group .text ul {
+    position: relative;
+    right: 20.9rem;
+
+    width: 43.0rem;
+  }
+
+  #tittle-2 {
+    right: 31.5rem;
   }
 }
