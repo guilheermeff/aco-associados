@@ -53,3 +53,9 @@
   width: 29.8rem;
   margin: 0 auto 16.0rem;
 }
+
+@media (min-width: 1000px){
+  header {
+    background-color: #FFFFFF;
+  }
+}
