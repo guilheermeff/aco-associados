@@ -18,7 +18,9 @@
 }
 
 .header svg,
-.wrapper svg {
+.wrapper svg,
+.balance-photo img,
+.hammer-photo img {
   display: none;
 }
 
@@ -27,6 +29,7 @@
 
   width: 24.4rem;
   margin: 0 auto;
+  margin-bottom: 3.2rem;
 }
 
 .background-tittle h2 {
@@ -37,8 +40,6 @@
   letter-spacing: -0.02em;
 
   text-align: center;
-
-  margin-bottom: 3.2rem;
 }
 
 .text p,
@@ -66,7 +67,9 @@
   }
   
   .header svg,
-  .wrapper svg {
+  .wrapper svg,
+  .balance-photo img,
+  .hammer-photo img {
     display: block;
   }
 
@@ -122,11 +125,12 @@
   }
 
   .background-tittle {
-    position: relative;
+    position: absolute;
   }
 
   #tittle-1 {
     left: 15.2rem;
+    top: 111.5rem;
   }
 
   .group .text p {
@@ -139,24 +143,26 @@
 
   .balance-photo img {
     position: absolute;
-    left: 53.4rem;
+    right: 0;
     top: 111.6rem;
   }
 
   .hammer-photo img {
     position: absolute;
     left: 0;
-    top: 2511px;
+    top: 251.1rem;
   }
 
   .group .text ul {
-    position: relative;
-    right: 20.9rem;
+    position: absolute;
+    left: 64.2rem;
+    top: 249.4rem;
 
     width: 43.0rem;
   }
 
   #tittle-2 {
-    right: 31.5rem;
+    left: 64.2rem;
+    top: 237.5rem;  
   }
 }
