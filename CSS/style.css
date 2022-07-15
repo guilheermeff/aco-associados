@@ -378,11 +378,26 @@ footer p {
 
   .newsletter {
     display: flex;
+    justify-content: center;
+
+    margin: 0 auto 17.3rem;
+  }
+
+  .newsletter .newsletter-image {
+    width: 34.5rem;
+    height: 31.3rem;
+  }
+
+  .newsletter-image img {
+    width: 41.3rem;
+
+    top: -3.3rem;
+    left: -6.0rem;
   }
 
   .newsletter-form legend {
     font-family: var(--ff-font-title);
-    font-size: 3.2rem;
+    font-size: 3.27rem;
     line-height: 3.9rem;
     letter-spacing: -0.02em;
   
@@ -392,37 +407,37 @@ footer p {
 
     text-align: start;
   }
-  
-  .newsletter .newsletter-image {
-    width: 41.3rem;
+
+  .inputs-form {
+    gap: 1.5rem;
   }
   
   .newsletter .newsletter-form {
     width: 52.0rem;
+    height: 31.3rem;
+
+    padding: 3.0rem 3.4rem 3.2rem;
   }
   
   .newsletter-form p {
     font-family: var(--ff-font-ezra-light);
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 300;
-    line-height: 1.8rem;
+    line-height: 3.2rem;
 
     color: #FFFFFF;
 
-    margin-bottom: 2.6rem;
+    margin-bottom: 1.1rem;
 
     display: block;
   }
 
   .inputs-form input {
-    width: 44.5rem;
     height: 4.5rem;
     border-radius: 5px;
     border: 0;
   
     padding-left: 2.0rem;
-  
-    margin-bottom: 1.5rem;
   
     font-family: var(--ff-font-ezra-light);
     font-size: 1.4rem;
@@ -451,6 +466,20 @@ footer p {
 
   .information-box {
     flex-direction: row;
+    
+    padding: 2.0rem 4.0rem 1.37rem;
+    margin: 0 auto 23rem;
+  }
+
+  footer {
+    height: 9.9rem;
+
+    padding: 3.7rem 8.3rem;
+  }
+
+  footer p {
+    font-size: 2.0rem;
+    letter-spacing: -0.02em;
   }
 }
 
