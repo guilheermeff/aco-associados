@@ -249,15 +249,33 @@
   }
 
   .welcome .theater-photo {
+    position: absolute;
+    left: -10.6rem;
+    top: 177.5rem;
+
+    z-index: 10;
+
     width: 67.9rem;
   }
 
   .welcome .office-photo {
+    position: absolute;
+    left: 73.7rem;
+    top: 148.35rem;
+
+    z-index: 10;
+    
     display: block;
     width: 57.1rem;
   }
 
   .welcome .welcome-text {
+    position: absolute;
+    left: 165px;
+    top: 1276px;
+
+    z-index: 10;
+    
     padding: 0;
 
     width: 52.4rem;
@@ -276,5 +294,42 @@
   .welcome .welcome-text a {
     font-size: 1.4rem;
     border-radius: 4px;
+  }
+
+  .grid-box {
+    position: absolute;
+    left: 0px;
+    top: 2492px;
+  }
+
+  .instagram {
+    height: 57.0rem;
+  }
+
+  .insta-grid {
+    grid-template-columns:  36.7rem 18rem 36.7rem 18rem;
+    grid-template-rows: 30.11vh 30.11vh;
+  
+    gap: 1.5rem;
+  }
+
+  .insta-grid div:nth-child(6) {
+    grid-column: 3/4;
+    grid-row: 1/3;
+  }
+
+  .newsletter {
+    position: absolute;
+    top: 3368px;  
+  }
+
+  .information-box {
+    position: absolute;
+    top: 3917px;
+  }
+
+  footer {
+    position: absolute;
+    top: 415.6rem;
   }
 }
