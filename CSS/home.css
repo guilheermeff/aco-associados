@@ -260,7 +260,7 @@
 
   .welcome .office-photo {
     position: absolute;
-    left: 73.7rem;
+    right: 0;
     top: 148.35rem;
 
     z-index: 10;
@@ -300,6 +300,8 @@
     position: absolute;
     left: 0px;
     top: 2492px;
+
+    width: 100%;
   }
 
   .instagram {
@@ -320,16 +322,22 @@
 
   .newsletter {
     position: absolute;
-    top: 3368px;  
+    top: 336.8rem;
+    
+    width: 100%;
   }
 
   .information-box {
     position: absolute;
-    top: 3917px;
+    top: 391.7rem;
+
+    width: 100%;
   }
 
   footer {
     position: absolute;
     top: 415.6rem;
+
+    width: 100%;
   }
 }
