@@ -292,8 +292,17 @@
   }
 
   .welcome .welcome-text a {
+    font-family: var(--ff-font-ezra-bold);
     font-size: 1.4rem;
-    border-radius: 4px;
+    line-height: 2.5rem;
+    letter-spacing: -0.02em;
+
+    text-decoration: none;
+
+    padding: 1.2rem 2.5rem;
+    border-radius: 5px;
+    background-color: var(--cc-orange-dark);
+    color: #FFFFFF;
   }
 
   .grid-box {
@@ -306,13 +315,32 @@
 
   .instagram {
     height: 57.0rem;
+
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .insta-grid {
     grid-template-columns:  36.7rem 18rem 36.7rem 18rem;
-    grid-template-rows: 30.11vh 30.11vh;
+    grid-template-rows: 26.25vh 26.25vh;
   
     gap: 1.5rem;
+  }
+
+  .insta-grid img:nth-child(5) {
+    grid-column-start: 4;
+  }
+
+  .insta-grid img:nth-child(6) {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+
+  .instagram img {
+    width: fit-content;
   }
 
   .insta-grid div:nth-child(6) {
@@ -327,11 +355,14 @@
     width: 100%;
   }
 
+  .content-information-box {
+    display: flex;
+    justify-content: center;
+  }
+
   .information-box {
     position: absolute;
     top: 391.7rem;
-
-    width: 100%;
   }
 
   footer {
