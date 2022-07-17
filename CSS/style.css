@@ -58,6 +58,10 @@ header {
   justify-content: center;
 }
 
+.header svg {
+  display: none;
+}
+
 .box-nav-menu {
   display: inline-flex;
   justify-content: space-between;
@@ -373,6 +377,10 @@ footer p {
 
   header .box-nav-menu {
     padding: 2.0rem 8.4rem;
+  }
+
+  .header svg {
+    display: block;
   }
 
   .header svg:nth-child(1) {
