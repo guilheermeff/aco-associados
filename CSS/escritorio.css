@@ -70,4 +70,38 @@
   header {
     background-color: #FFFFFF;
   }
+
+  .header {
+    background-image: url(../images/header-escritorio-desktop.png);
+
+    height: 23.5rem;
+  }
+
+  .infos-about img {
+    position: absolute;
+  }
+
+  .infos-about img {
+    width: 49.7rem;
+  }
+
+  .acting {
+    position: absolute;
+    top: 233.0rem;
+
+    width: 100%;
+  }
+
+  .profile-cards {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .information-box {
+    top: 338.6rem;
+  }
+
+  footer {    
+    top: 377.5rem;
+  }
 }

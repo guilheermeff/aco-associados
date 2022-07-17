@@ -81,18 +81,6 @@
     /* margin-bottom: 13.5rem; */
   }
 
-  .header svg:nth-child(1) {
-    position: absolute;
-    left: 15.3rem;
-    top: 24.3rem;
-  }
-
-  .header svg:nth-child(2) {
-    position: absolute;
-    left: 24.3rem;
-    top: 24.8rem;
-  }
-
   .soft-line {
     margin-bottom: 5.3rem;
   }
@@ -139,7 +127,7 @@
 
     background-position-x: 35.0rem;
 
-    width: 111.7rem;
+    width: 30.7rem;
   }
 
   .group .text p {

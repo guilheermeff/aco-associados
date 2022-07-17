@@ -375,6 +375,18 @@ footer p {
     padding: 2.0rem 8.4rem;
   }
 
+  .header svg:nth-child(1) {
+    position: absolute;
+    left: 15.3rem;
+    top: 24.3rem;
+  }
+
+  .header svg:nth-child(2) {
+    position: absolute;
+    left: 24.3rem;
+    top: 24.8rem;
+  }
+
   .box-nav-menu a svg:first-child {
     display: none;
   }
@@ -471,6 +483,11 @@ footer p {
     background-color: var(--cc-btn-submit-hover);
   }
 
+  .content-information-box {
+    display: flex;
+    justify-content: center;
+  }
+
   .information-box {
     flex-direction: row;
     
@@ -478,11 +495,15 @@ footer p {
     margin: 0 auto 23rem;
 
     width: 97.7rem;
+
+    position: absolute;
   }
 
   footer {
+    position: absolute;
+    
     height: 9.9rem;
-
+    width: 100%;
     padding: 3.7rem 8.3rem;
   }
 

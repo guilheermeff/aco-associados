@@ -355,20 +355,11 @@
     width: 100%;
   }
 
-  .content-information-box {
-    display: flex;
-    justify-content: center;
-  }
-
   .information-box {
-    position: absolute;
     top: 391.7rem;
   }
 
   footer {
-    position: absolute;
     top: 415.6rem;
-
-    width: 100%;
   }
 }
