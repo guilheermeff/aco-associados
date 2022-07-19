@@ -18,5 +18,3 @@ router.handle()
 
 window.route = () => router.route()
 window.onpopstate = () => router.handle()
-
-console.log(window)
