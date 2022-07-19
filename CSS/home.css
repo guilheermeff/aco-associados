@@ -245,7 +245,7 @@
     height: 15.0rem;
     line-height: 2.5rem;
 
-    margin-bottom: 2.8rem;
+    margin-bottom: 1.5rem;
   }
 
   .welcome .theater-photo {
@@ -271,8 +271,8 @@
 
   .welcome .welcome-text {
     position: absolute;
-    left: 165px;
-    top: 1276px;
+    left: 16.5rem;
+    top: 127.6rem;
 
     z-index: 10;
     
@@ -284,6 +284,10 @@
   .welcome .welcome-text h3 {
     font-size: 6.4rem;
     line-height: 7.7rem;
+    letter-spacing: -0.02em;
+
+    height: 16.3rem;
+    margin-bottom: 1.3rem;
   }
 
   .welcome .welcome-text p {
@@ -311,6 +315,10 @@
     top: 2492px;
 
     width: 100%;
+  }
+
+  #tittle-mobile {
+    display: none;
   }
 
   .instagram {

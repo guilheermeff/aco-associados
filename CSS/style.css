@@ -274,7 +274,7 @@ header nav ul li a:hover {
 /* ########## start footer styles ########## */
 
 footer {
-  background-color: var(--cc-orange-light);
+  background-color: var(--cc-orange-primary);
   height: 8.0rem;
 
   padding: 2.0rem;
