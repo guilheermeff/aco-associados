@@ -300,6 +300,8 @@ footer p {
   
   transform: translateY(100%);
   transition: 200ms;
+
+  z-index: 20;
 }
 
 .show {

@@ -1,11 +1,13 @@
 import { MobileNavbar } from "./mobile.menu.js";
 import { Router } from "./router.js";
-
+import { onScroll } from "./topbutton.js";
 
 const mobileNavbar = new MobileNavbar(".mobile-menu", ".nav-list", ".nav-list li");
 mobileNavbar.init();
 
 const router = new Router()
+
+const scroll = onScroll()
 
 router.add("/", "/pages/home.html")
 router.add("/home", "/pages/home.html")
@@ -20,19 +22,3 @@ router.handle()
 window.route = () => router.route()
 window.onpopstate = () => router.handle()
 
-const backToTopButton = document.querySelector('.backToTopButton')
-console.log(backToTopButton)
-
-window.addEventListener('scroll', () => {
-  showBackToTopButtonOnScroll() // deixar o evento mais lento
-})
-
-
-
-function showBackToTopButtonOnScroll() {
-  if(scrollY > 550){
-    backToTopButton.classList.add('show')
-  } else {
-    backToTopButton.classList.remove('show')
-  }
-}
