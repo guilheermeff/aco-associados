@@ -44,6 +44,10 @@
   display: none;
 }
 
+.hold-body {
+  overflow-y: hidden;
+}
+
 /* ########## end general styles ########## */
 /* ########## start header styles ########## */
 
@@ -79,50 +83,59 @@ header a  img {
   width: 80%;
 }
 
-header nav ul li a {
-  color: #000;
-  text-decoration: none;
-  transition: 0.3s;
+.openMenu,
+.closeMenu {
+  background: transparent;
+  border: 0;
 }
 
-header nav ul li a:hover {
-  opacity: 0.7;
-}
+.nav-bar {
+  background-color: var(--cc-orange-primary);
 
-.nav-list {
-  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  z-index: 1;
+
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-list li {
-
-  margin-left: 32px;
+.nav-bar ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
 }
 
-.mobile-menu {
-  cursor: pointer;
+.nav-bar ul li a {
+  text-decoration: none;
+}
+
+.menu-expanded {
   display: none;
 }
 
-.mobile-menu div {
-  width: 32px;
-  height: 2px;
-  background: #717171;
-  margin: 8px;
-  transition: 0.3s;
+.logo-expanded {
+  position: absolute;
+  top: 2.5rem;
+  left: 3.5rem;
+
+  z-index: 2;
 }
 
-.mobile-menu.active .line1 {
-  transform: rotate(-45deg) translate(-8px, 8px);
+.iconMenu-expanded {
+  position: absolute;
+  top: 2.5rem;
+  right: 3.5rem;
+
+  z-index: 2;
 }
 
-.mobile-menu.active .line2 {
-  opacity: 0;
-}
-
-.mobile-menu.active .line3 {
-  transform: rotate(45deg) translate(-5px, -7px);
-}
 
 /* ########## end header styles ########## */
 /* ########## start main styles ########## */
@@ -311,43 +324,6 @@ footer p {
 }
 
 /* ########## end footer styles ########## */
-
-@media (max-width: 999px) {
-
-  html, body {
-    overflow-x: hidden;
-    position: relative;
-  }
-
-  .nav-list {
-    position: absolute;
-    top: 10vh;
-    right: 0;
-    width: 100vw;
-    height: 92vh;
-    background: var(--cc-orange-primary);
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
-    z-index: 100;
-  }
-
-  .nav-list li {
-    margin: 0;
-    opacity: 0;
-    z-index: 6;
-  }
-
-  .mobile-menu {
-    display: block;
-  }
-
-  .nav-list.active {
-    transform: translateX(0);
-  }
-}
 
 @media(min-width: 1000px) {
 

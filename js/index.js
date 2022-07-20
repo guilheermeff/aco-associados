@@ -1,13 +1,12 @@
-import { MobileNavbar } from "./mobile.menu.js";
 import { Router } from "./router.js";
 import { onScroll } from "./topbutton.js";
+import { mobileMenu } from "./mobile.menu.js";
 
-const mobileNavbar = new MobileNavbar(".mobile-menu", ".nav-list", ".nav-list li");
-mobileNavbar.init();
-
-const router = new Router()
 
 const scroll = onScroll()
+const mobilemenu = mobileMenu()
+
+const router = new Router()
 
 router.add("/", "/pages/home.html")
 router.add("/home", "/pages/home.html")
@@ -21,4 +20,3 @@ router.handle()
 
 window.route = () => router.route()
 window.onpopstate = () => router.handle()
-

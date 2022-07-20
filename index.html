@@ -15,7 +15,7 @@
 
   <script src="./js/index.js" type="module" defer></script>
 </head>
-<body>
+<body id="body">
 
   <div class="orange-bar hide">
     <div class="external-link">
@@ -31,7 +31,7 @@
 
   <header id="top">
     <div class="box-nav-menu">
-      <a href="/" onclick="route()">
+      <a id="logo" href="/" onclick="route()">
         <svg width="210" height="69" viewBox="0 0 210 69" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0.0517799 10.6968L9.04516 29.3855H0.0230103L0.0517799 10.6968Z" fill="#356F2F"/>
           <path d="M10.6678 7.24414H1.29462L10.5066 26.2493L10.6678 7.24414Z" fill="#356F2F"/>
@@ -149,13 +149,20 @@
           <line x1="91.9692" y1="2.98309" x2="91.9692" y2="79.7978" stroke="black" stroke-width="0.5"/>
         </svg>          
       </a>
-      <nav class="nav-bar">
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-        <ul class="nav-list">
+      <button class="openMenu">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 20H30" stroke="#297231" stroke-width="2" stroke-linecap="round"troke-linejoin="round"/> 
+          <path d="M10 12H30" stroke="#297231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M18 28L30 28" stroke="#297231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      </button>
+      <button class="closeMenu menu-expanded">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 10L10 30M10 10L30 30" stroke="#297231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <nav class="nav-bar menu-expanded">
+        <ul type="none" class="nav-list">
           <li><a href="/" onclick="route()">HOME</a></li>
           <li><a href="/aco" onclick="route()">ACO</a></li>
           <li><a href="/escritorio" onclick="route()">ESCRITÓRIO</a></li>
