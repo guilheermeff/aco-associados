@@ -290,6 +290,24 @@ footer p {
   width: 90%;
 }
 
+.backToTopButton {
+  position: fixed;
+  bottom: 1.0rem;
+  right: 2.5rem;
+
+  opacity: 0;
+  visibility: hidden;
+  
+  transform: translateY(100%);
+  transition: 200ms;
+}
+
+.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
 /* ########## end footer styles ########## */
 
 @media (max-width: 999px) {
