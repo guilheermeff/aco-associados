@@ -384,24 +384,13 @@ footer p {
     height: 13.8rem;
   }
 
-  header .box-nav-menu {
+  .box-nav-menu {
     padding: 2.0rem 8.4rem;
+    align-items: center;
   }
 
-  .header svg {
-    display: block;
-  }
-
-  .header svg:nth-child(1) {
-    position: absolute;
-    left: 15.3rem;
-    top: 24.3rem;
-  }
-
-  .header svg:nth-child(2) {
-    position: absolute;
-    left: 24.3rem;
-    top: 24.8rem;
+  .box-nav-menu button {
+    display: none;
   }
 
   .box-nav-menu a svg:first-child {
@@ -412,11 +401,35 @@ footer p {
     display: block;
   }
 
-  .nav-list a:hover {
+  .nav-bar {
+    background-color: transparent;
+    position: static;
+    width: fit-content;
+  }
+
+  .nav-bar ul:nth-child(1) {
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .nav-bar ul:nth-child(2) {
+    display: none;
+  }
+
+  .menu-expanded {
+    display: block;
+  }
+
+  .nav-bar ul li a {
+    color: black;
+  }
+
+  .nav-bar ul li a:hover {
     font-weight: 900;
     font-size: 2.2rem;
 
     color: black;
+    transition: 200ms;
   }
 
   .newsletter {
@@ -534,16 +547,5 @@ footer p {
   footer p {
     font-size: 2.0rem;
     letter-spacing: -0.02em;
-  }
-}
-
-@keyframes navLinksFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
   }
 }
