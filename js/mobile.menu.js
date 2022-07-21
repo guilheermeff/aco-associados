@@ -2,11 +2,17 @@ export function mobileMenu() {
   
   const buttonOpenMenu = document.querySelector('.openMenu')
   const buttonCloseMenu = document.querySelector('.closeMenu')
+  const buttonLi = document.querySelector('ul li a')
 
   const navBar = document.querySelector('.nav-bar')
+  console.log(navBar)
   
   const logo = document.querySelector('#logo')
   const body = document.querySelector('#body')
+
+  buttonLi.addEventListener('click', () => {
+    closeMenu()
+  })
 
   buttonOpenMenu.addEventListener('click', () => {
     openMenu()

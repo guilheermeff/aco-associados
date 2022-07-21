@@ -16,5 +16,5 @@ router.add("/zfm", "/pages/zfm.html")
 router.add("/contato", "/pages/contato.html")
 
 router.handle()
-window.route = () => router.route()
+// (find line function) window.route = () => router.route()
 window.onpopstate = () => router.handle()
