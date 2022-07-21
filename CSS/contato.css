@@ -80,7 +80,7 @@ textarea {
   padding-top: 1.8rem;
 }
 
-button {
+.help-form button {
   background-color: var(--cc-orange-dark);
   margin: 4.6rem auto 5.4rem;
 

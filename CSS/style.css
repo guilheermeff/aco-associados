@@ -56,7 +56,7 @@ header {
   font-size: 2.0rem;
   font-weight: 100;
   background-color: var(--cc-orange-primary);
-  height: 12vh;
+  height: 12.0rem;
   
   display: flex;
   justify-content: center;
@@ -67,9 +67,8 @@ header {
 }
 
 .box-nav-menu {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
-  align-items: center;
 
   width: 100%;
   padding: 2.5rem 3.5rem;
@@ -130,7 +129,7 @@ header a  img {
 
 .iconMenu-expanded {
   position: absolute;
-  top: 2.5rem;
+  top: 4.0rem;
   right: 3.5rem;
 
   z-index: 2;

@@ -5,7 +5,6 @@ import { mobileMenu } from "./mobile.menu.js";
 
 const scroll = onScroll()
 const mobilemenu = mobileMenu()
-
 const router = new Router()
 
 router.add("/", "/pages/home.html")
@@ -17,6 +16,5 @@ router.add("/zfm", "/pages/zfm.html")
 router.add("/contato", "/pages/contato.html")
 
 router.handle()
-
 window.route = () => router.route()
 window.onpopstate = () => router.handle()
