@@ -28,6 +28,11 @@ section.top::before {
   position: absolute;
   top: 18.5rem;
   z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .box-1 h1 {
@@ -65,9 +70,6 @@ section.top::before {
 
   background-color: var(--cc-orange-dark); 
   color: #FFFFFF;
-
-  position: absolute;
-  z-index: 1;
 }
 
 .cards {
