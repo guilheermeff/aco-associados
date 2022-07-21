@@ -14,6 +14,7 @@
   --cc-green-primary: hsl(118, 39%, 25%);
   --cc-dark: 	hsl(0, 0%, 0%);
   --cc-grey: hsl(0, 0%, 16%);
+  --cc-color-buttons: #297231;
   --cc-btn-submit-hover: hsl(26, 81%, 42%);
   --bc-formColor: hsl(0, 0%, 84%);
   --ff-font-title: 'Bebas Neue', cursive;
@@ -57,9 +58,6 @@ header {
   font-weight: 100;
   background-color: var(--cc-orange-primary);
   height: 12.0rem;
-  
-  display: flex;
-  justify-content: center;
 }
 
 .header svg {
@@ -92,27 +90,43 @@ header a  img {
   background-color: var(--cc-orange-primary);
 
   position: absolute;
-  top: 0;
+  top: 11.9rem;
   left: 0;
   width: 100%;
   height: 100%;
-
   z-index: 1;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+
+  gap: 9.5rem;
 }
 
 .nav-bar ul {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 2.5rem;
+}
+
+.nav-bar ul:nth-child(1) {
+  flex-direction: column;
+  gap: 3.5rem;
+
+  margin-top: 9.5rem;
+}
+
+.nav-bar ul:nth-child(2) {
+  flex-direction: row;
+  gap: 5.5rem;
+}
+
+.social-links {
+  flex-direction: row;
 }
 
 .nav-bar ul li a {
   text-decoration: none;
+  color: var(--cc-color-buttons);
 }
 
 .menu-expanded {
