@@ -18,3 +18,4 @@ router.add("/contato", "/pages/contato.html")
 router.handle()
 // (find line function) window.route = () => router.route()
 window.onpopstate = () => router.handle()
+

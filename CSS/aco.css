@@ -1,8 +1,9 @@
 .header {
   height: 11.1rem;
-  background-image: url(../images/FOTO-ACO.png);
+  background-image: url(../images/header-page-aco.png);
   background-position-x: -4.9rem;
 
+  background-size: cover;
   margin-bottom: 10.0rem;
 }
 
@@ -47,6 +48,7 @@
   font-size: 1.3rem;
   line-height: 2.2rem;
   letter-spacing: -0.02em;
+  text-align: justify;
 }
 
 .text p {

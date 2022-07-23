@@ -4,7 +4,7 @@ section.top::before {
   height: 47.0rem;
 
   background-color: #E56A0B;
-  opacity: 0.2;
+  opacity: 0.1;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   position: absolute;
@@ -122,9 +122,10 @@ section.top::before {
   font-weight: 300;
   line-height: 2.2rem;
   letter-spacing: -0.02em;
+  text-align: justify;
   
-  width: 100%;
-  height: 14.0rem;
+  /*width: 100%; */
+  /* height: 14.0rem; */
 }
 
 .cards div:nth-child(2) p {

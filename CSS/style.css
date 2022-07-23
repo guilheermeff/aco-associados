@@ -52,6 +52,10 @@
 /* ########## end general styles ########## */
 /* ########## start header styles ########## */
 
+.scroll-header {
+  background-color: transparent;
+}
+
 header {
   font-family: var(--ff-font-title);
   font-size: 2.0rem;
@@ -126,7 +130,7 @@ header a  img {
 
 .nav-bar ul li a {
   text-decoration: none;
-  color: var(--cc-color-buttons);
+  color: #000;
 }
 
 .menu-expanded {
@@ -418,10 +422,6 @@ footer p {
 
   .menu-expanded {
     display: block;
-  }
-
-  .nav-bar ul li a {
-    color: black;
   }
 
   .nav-bar ul li a:hover {

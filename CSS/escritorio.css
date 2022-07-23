@@ -34,7 +34,8 @@
   font-size: 1.3rem;
   line-height: 3.0rem;
   letter-spacing: -0.02em;
-
+  text-align: justify;
+  text-indent: 4em;
 }
 
 .profile-cards {
@@ -54,6 +55,7 @@
 
 .profile img {
   border-radius: 1.0rem;
+  width: 30.2rem;
 }
 
 .profile-name {
@@ -76,13 +78,36 @@
 
     height: 23.5rem;
   }
-
-  .infos-about img {
-    position: absolute;
+  
+  .content {
+    flex-direction: row;
+    font-size: 1.4rem;
   }
 
-  .infos-about img {
+  .content img,
+  .content p {
+    position: absolute;
     width: 49.7rem;
+  }
+
+  .content:nth-child(1) img {
+    left: 65.1rem;
+    top: 65.0rem;
+  }
+
+  .content:nth-child(1) p {
+    left: 10.1rem;
+    top: 72.4rem;
+  }
+
+  .content:nth-child(2) img {
+    left: 15.3rem;
+    top: 142.0rem;
+  }
+
+  .content:nth-child(2) p {
+    left: 72.1rem;
+    top: 149.2rem;
   }
 
   .acting {
