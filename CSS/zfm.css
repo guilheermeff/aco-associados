@@ -1,5 +1,70 @@
+.aco-page h1 {
+  font-family: var(--ff-font-title);
+  color: var(--cc-orange-primary);
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+
+  letter-spacing: -0.02em;
+}
+
+.aco-page h2 {
+  font-family: var(--ff-font-title);
+  font-size: 6.4rem;
+}
+
+.text p {
+  text-align: justify;
+  text-indent: 4em;
+
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: -0.02em;
+  font-family: var(--ff-font-ezra-light);
+  font-weight: 100;
+}
+
 @media (min-width: 1000px){
   header {
     background-color: #FFFFFF;
+  }
+
+  .aco-page {
+    position: absolute;
+    top: 32.6rem;
+    left: 50%;
+
+    transform: translateX(-50%);
+  }
+
+  h1 {
+    margin-bottom: 7.5rem;
+  }
+
+  .aco-page img {
+    width: 92.7rem;
+    height: 62.7rem;
+
+    margin-bottom: 9.5rem;
+  }
+
+  .text {
+    width: 91.3rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .text h2 {
+    margin-bottom: 5.0rem;
+  }
+
+  .text-p {
+    line-height: 3.2rem;
+    width: 100%;
+  }
+
+  footer {
+    top: 329.8rem;
   }
 }
