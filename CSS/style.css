@@ -375,6 +375,10 @@ footer p {
 
   text-align: justify;
 }
+
+blockquote {
+  margin-left: 4em;
+}
 /* ########## end styles of article pages ##########*/
 
 @media(min-width: 1000px) {
