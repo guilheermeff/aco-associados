@@ -15,6 +15,7 @@ router.add("/fiquePorDentro", "/pages/fique-por-dentro.html")
 router.add("/zfm", "/pages/zfm.html")
 router.add("/contato", "/pages/contato.html")
 router.add("/direitoEmpresarial", "/pages/direito-empresarial.html")
+router.add("/direitoCivil", "/pages/direito-civil.html")
 
 router.handle()
 // (find line function) window.route = () => router.route()
