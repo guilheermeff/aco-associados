@@ -18,6 +18,7 @@ router.add("/direitoEmpresarial", "/pages/direito-empresarial.html")
 router.add("/direitoCivil", "/pages/direito-civil.html")
 router.add("/direitoTributario", "/pages/direito-tributario.html")
 router.add("/direitoAdministrativo", "/pages/direito-administrativo.html")
+router.add("/direitoTrabalhista", "/pages/direito-trabalhista.html")
 
 router.handle()
 // (find line function) window.route = () => router.route()
