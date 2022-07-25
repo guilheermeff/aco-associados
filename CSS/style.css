@@ -41,6 +41,10 @@
   src: url(../fonts/Ezra-Black.ttf) format('truetype');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hide {
   display: none;
 }
