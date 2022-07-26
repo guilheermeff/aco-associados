@@ -1,3 +1,77 @@
+.header {
+  
+  background-image: url(../images/header-fique-por-dentro.png);
+  background-size: cover;
+  margin-bottom: 10.0rem;
+
+  height: 11.1rem;
+}
+
+.posts {
+  margin-bottom: 10.0rem;
+  display: flex;
+  justify-content: center;
+}
+
+.post {
+  width: 30.9rem;
+  background-color: var(--bc-postColor);
+
+  border-radius: 1.5rem;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  width: 3.2rem;
+  height: 6.0rem;
+
+  border-radius: 3px;
+
+  position: relative;
+  top: -20.0rem;
+  left: 2.3rem;
+  z-index: 1;
+}
+
+.day,
+.month,
+.year {
+  height: 2.0rem;
+  width: 100%;
+}
+
+.day {background-color: var(--cc-orange-primary);}
+.month {background-color: var(--cc-orange-light);}
+.year {background-color: var(--cc-orange-dark);}
+
+.post img {
+  width: 100%;
+
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.post h2 {
+  font-family: var(--ff-font-title);
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  letter-spacing: -0.02em;
+  padding: 2.0rem 1.95rem 1.0rem;
+}
+
+.post p {
+  width: 27.0rem;
+
+  font-family: var(--ff-font-ezra-light);
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.02em;
+
+  text-align: justify;
+
+  margin: 0 auto 2.05rem;
+}
+
 @media (min-width: 1000px){
   header {
     background-color: #FFFFFF;
