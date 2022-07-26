@@ -20,18 +20,20 @@
   border-radius: 1.5rem;
 }
 
+.content-date {
+  height: 20.9rem;
+}
+
 .date {
   display: flex;
   flex-direction: column;
   width: 3.2rem;
-  height: 6.0rem;
 
   border-radius: 3px;
 
-  position: relative;
-  top: -20.0rem;
+  position:relative;
+  top: -19.0rem;
   left: 2.3rem;
-  z-index: 1;
 }
 
 .day,
@@ -41,7 +43,7 @@
   width: 100%;
 }
 
-.day {background-color: var(--cc-orange-primary);}
+.day {background-color: var(--cc-orange-primary); border-radius: 5px 5px 0 0;}
 .month {background-color: var(--cc-orange-light);}
 .year {background-color: var(--cc-orange-dark);}
 
