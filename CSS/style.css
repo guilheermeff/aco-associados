@@ -384,6 +384,10 @@ footer p {
 blockquote {
   margin-left: 4em;
 }
+
+blockquote strong {
+  font-family: var(--ff-font-ezra-bold);
+}
 /* ########## end styles of article pages ##########*/
 
 @media(min-width: 1000px) {

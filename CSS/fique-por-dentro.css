@@ -10,7 +10,11 @@
 .posts {
   margin-bottom: 10.0rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+
+  gap: 2.5rem;
 }
 
 .post {
@@ -77,5 +81,9 @@
 @media (min-width: 1000px){
   header {
     background-color: #FFFFFF;
+  }
+
+  .header {
+    height: 24.2rem;
   }
 }

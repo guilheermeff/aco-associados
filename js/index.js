@@ -25,14 +25,3 @@ router.add("/direitoDigital", "/pages/direito-digital.html")
 router.handle()
 // (find line function) window.route = () => router.route()
 window.onpopstate = () => router.handle()
-
-ScrollReveal({
-  origin: 'top',
-  distance: '30px',
-  duration: 700
-}).reveal(`
-  .card, 
-  img, 
-  h2, 
-  p
-`)
