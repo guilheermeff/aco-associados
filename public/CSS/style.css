@@ -50,6 +50,10 @@ html {
   display: none;
 }
 
+.hold-body {
+  overflow-y: hidden;
+}
+
 /* ########## end general styles ########## */
 /* ########## start header styles ########## */
 

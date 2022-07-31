@@ -7,7 +7,7 @@ export function mobileMenu() {
   const navBar = document.querySelector('.nav-bar')
   
   const logo = document.querySelector('#logo')
-  const body = document.querySelector('#body')
+  const body = document.querySelector('.body')
 
   buttonLi.addEventListener('click', () => {
     closeMenu()
@@ -39,7 +39,7 @@ export function mobileMenu() {
     buttonCloseMenu.classList.remove('menu-expanded')
     buttonCloseMenu.classList.add('iconMenu-expanded')
   
-    body.classList.add('hide')
+    body.classList.add('hold-body')
   }
   
   function clickButtonCloseMenu() {
