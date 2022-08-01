@@ -51,7 +51,7 @@ html {
 }
 
 .hold-body {
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 /* ########## end general styles ########## */
@@ -343,6 +343,7 @@ footer p {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+  overflow: hidden;
 }
 
 /* ########## end footer styles ########## */
