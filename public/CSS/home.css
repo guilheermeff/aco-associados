@@ -86,10 +86,6 @@ section.top::before {
   margin: 0 auto;
 }
 
-.cards {
-  overflow: hidden;
-}
-
 .cards .card {
   padding: 1.6rem 2.9rem 1.1rem;
   
@@ -127,9 +123,7 @@ section.top::before {
   line-height: 2.2rem;
   letter-spacing: -0.02em;
   text-align: justify;
-  
-  /*width: 100%; */
-  /* height: 14.0rem; */
+  margin-bottom: 0.8rem;
 }
 
 .cards div:nth-child(2) p {
@@ -150,11 +144,6 @@ section.top::before {
   display: none;
 }
 
-.welcome-text {
-  padding-left: 4.3rem;
-  padding-right: 2.7rem;
-}
-
 .welcome-text h3 {
   color: var(--cc-orange-primary);
 
@@ -164,6 +153,9 @@ section.top::before {
   line-height: 6.6rem;
   
   letter-spacing: -0.02em;
+
+  padding: 0 4.2rem;
+  margin-bottom: 4rem;
 }
 
 .welcome-text p {
@@ -171,9 +163,16 @@ section.top::before {
   font-size: 1.3rem;
   line-height: 3.0rem;
   letter-spacing: -0.02em;
+  text-indent: 4em;
 
-  margin-bottom: 5.0rem;
+  margin-bottom: 4.0rem;
   text-align: justify;
+
+  padding: 0 5.5rem 0 4.3rem;
+}
+
+.welcome-text p strong {
+  font-family: var(--ff-font-ezra-bold);
 }
 
 .welcome-text a {
@@ -183,11 +182,13 @@ section.top::before {
   line-height: 2.5rem;
   letter-spacing: -0.02em;
 
-  padding: .6rem 2.2rem 0.2rem;
+  padding: 0.8rem 2.2rem 0.5rem;
   border-radius: 5px;
 
   background-color: var(--cc-orange-dark);
   color: #FFFFFF;
+
+  margin-left: 4.2rem;
 }
 
 .instagram {
@@ -225,7 +226,7 @@ section.top::before {
   main .top {
     background-position-x: 0;
     height: 72.0rem;
-    width: 100vw;
+    width: 100%;
 
     padding: 0;
     position: relative;
@@ -266,11 +267,7 @@ section.top::before {
 
   .cards .card p {
     font-size: 1.4rem;
-
-    height: 15.0rem;
     line-height: 2.5rem;
-
-    margin-bottom: 1.5rem;
   }
 
   .welcome .theater-photo {
@@ -281,6 +278,8 @@ section.top::before {
     z-index: 10;
 
     width: 67.9rem;
+
+    display: none;
   }
 
   .welcome .office-photo {
@@ -300,8 +299,6 @@ section.top::before {
     top: 127.6rem;
 
     z-index: 10;
-    
-    padding: 0;
 
     width: 52.4rem;
   }
@@ -311,6 +308,8 @@ section.top::before {
     line-height: 7.7rem;
     letter-spacing: -0.02em;
 
+    padding: 0;
+
     height: 16.3rem;
     margin-bottom: 1.3rem;
   }
@@ -318,6 +317,9 @@ section.top::before {
   .welcome .welcome-text p {
     font-size: 1.8rem;
     line-height: 3.2rem;
+
+    margin-bottom: 0;
+    padding: 0 5.5rem 4.0rem 0;
   }
 
   .welcome .welcome-text a {
@@ -332,6 +334,8 @@ section.top::before {
     border-radius: 5px;
     background-color: var(--cc-orange-dark);
     color: #FFFFFF;
+
+    margin: 0;
   }
 
   .grid-box {
@@ -358,7 +362,7 @@ section.top::before {
 
   .insta-grid {
     grid-template-columns:  36.7rem 18rem 36.7rem 18rem;
-    grid-template-rows: 26.25vh 26.25vh;
+    grid-template-rows: 22.0rem 22.0rem;
   
     gap: 1.5rem;
   }

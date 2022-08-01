@@ -343,7 +343,6 @@ footer p {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
-  overflow: hidden;
 }
 
 /* ########## end footer styles ########## */
