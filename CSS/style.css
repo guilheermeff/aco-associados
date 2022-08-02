@@ -279,6 +279,15 @@ header a  img {
   margin-bottom: 3.3rem;
 }
 
+.internal-information-box a:hover {
+  transform: scale(1.20, 1.20);
+  transition: 200ms;
+}
+
+.internal-information-box a circle:hover {
+  fill: var(--cc-green-primary);
+}
+
 .internal-information-box h3{
   font-family: var(--ff-font-title);
   font-size: 3.2rem;
