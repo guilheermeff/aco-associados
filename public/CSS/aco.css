@@ -30,6 +30,10 @@
   display: none;
 }
 
+.group:nth-child(1) {
+  margin-bottom: 9.0rem;
+}
+
 .background-tittle {
   background-color: var(--cc-orange-primary);
 
@@ -59,7 +63,13 @@
 
 .text p {
   width: 33.7rem;
-  margin: 0 auto 10.0rem;
+  margin: 0 auto 2.0rem;
+
+  text-indent: 2em;
+}
+
+.text p strong {
+  font-family: var(--ff-font-ezra-bold);
 }
 
 .text ul {
@@ -115,8 +125,11 @@
   
   .text p,
   .text ul {
+    width: 49.2rem;
+
     line-height: 2.5rem;
     font-size: 1.4rem;
+    margin: 0 0 2.0rem;
   }
 
   .background-tittle {
@@ -137,7 +150,7 @@
     width: 30.7rem;
   }
 
-  .group .text p {
+  .paragraphy {
     position: absolute;
     top: 123.1rem;
     left: 15.2rem;
@@ -160,7 +173,7 @@
   .group .text ul {
     position: absolute;
     left: 64.2rem;
-    top: 249.4rem;
+    top: 265.0rem;
 
     width: 43.0rem;
   }
