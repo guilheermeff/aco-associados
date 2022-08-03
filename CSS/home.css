@@ -12,8 +12,8 @@ section.top::before {
   z-index: 0;
 }
 
-.top {
-  background-image: url(../images/VT\ PRINCIPAL.jpg);
+main .top {
+  background-image: url(../images/imagem-cidade-manaus.png);
   background-size: cover;
   background-position-x: -27.5rem;
 
@@ -126,11 +126,8 @@ section.top::before {
   margin-bottom: 0.8rem;
 }
 
-.cards div:nth-child(2) p {
-  margin-top: 1.0rem;
-}
-
 .welcome {
+  max-width: 177.5rem;
   margin-bottom: 13.0rem;
 }
 
@@ -212,7 +209,7 @@ section.top::before {
   width: 100%;
 }
 
-@media(min-width: 1000px){
+@media(min-width: 1280px){
 
   header {
     background: transparent;
@@ -241,7 +238,7 @@ section.top::before {
   }
 
   .cards {
-    top: -18.0rem;
+    top: -20.3rem;
 
     flex-direction: row;
     justify-content: center;
@@ -254,6 +251,15 @@ section.top::before {
 
   .cards .card {
     width: 31.6rem;
+  }
+
+  .cards div:nth-child(1),
+  .cards div:nth-child(3) {
+    height: 36.6rem;
+  }
+
+  .cards div:nth-child(2) {
+    height: 41.4rem;
   }
 
   .cards .card img {
@@ -270,37 +276,39 @@ section.top::before {
     line-height: 2.5rem;
   }
 
+  .welcome {
+    margin: 0 auto 18.4rem;
+    height: 153.3rem;
+  }
+
   .welcome .theater-photo {
-    position: absolute;
-    left: -10.6rem;
-    top: 177.5rem;
+    position: relative;
+    top: 102.8rem;
 
-    z-index: 10;
-
+    display: inline-block;
     width: 67.9rem;
-
-    display: none;
   }
 
   .welcome .office-photo {
-    position: absolute;
-    right: 0;
-    top: 148.35rem;
-
-    z-index: 10;
-    
+    position: relative;
+    top: 33.0rem;
     display: block;
     width: 57.1rem;
+
+    float: right;
   }
 
   .welcome .welcome-text {
-    position: absolute;
-    left: 16.5rem;
-    top: 127.6rem;
+    position: relative;
+    top: -50.0rem;
+    left: 15.3rem;
 
-    z-index: 10;
-
+    display: inline-block;
     width: 52.4rem;
+  }
+
+  .welcome img {
+    margin-bottom: 0;
   }
 
   .welcome .welcome-text h3 {
@@ -343,10 +351,6 @@ section.top::before {
   }
 
   .grid-box {
-    position: absolute;
-    left: 0px;
-    top: 2492px;
-
     width: 100%;
   }
 
@@ -390,17 +394,6 @@ section.top::before {
   }
 
   .newsletter {
-    position: absolute;
-    top: 336.8rem;
-    
     width: 100%;
-  }
-
-  .information-box {
-    top: 391.7rem;
-  }
-
-  footer {
-    top: 415.6rem;
   }
 }

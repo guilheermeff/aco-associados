@@ -413,7 +413,7 @@ blockquote strong {
 }
 /* ########## end styles of article pages ##########*/
 
-@media(min-width: 1000px) {
+@media(min-width: 1280px) {
 
   .hide {
     display: block;
@@ -603,8 +603,6 @@ blockquote strong {
     margin: 0 auto 23rem;
 
     max-width: 97.7rem;
-
-    position: absolute;
   }
 
   .internal-information-box {
@@ -625,7 +623,6 @@ blockquote strong {
   }
 
   footer {
-    position: absolute;
     
     height: 9.9rem;
     width: 100%;
