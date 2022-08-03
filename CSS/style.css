@@ -23,23 +23,29 @@
   --ff-font-ezra-medium: 'Ezra-medium', cursive;
   --ff-font-ezra-bold: 'Ezra-bold', cursive;
   --ff-font-ezra-black: 'Ezra-black', cursive;
+  --ff-font-bebas-light: 'Bebas_light', cursive;
 }
 
 @font-face { /* Ezra light */
   font-family: 'Ezra-light';
-  src: url(../fonts/Ezra-Light.ttf) format('truetype');
+  src: url(../fonts/Ezra/Ezra-Light.ttf) format('truetype');
 }
 @font-face { /* Ezra medium */
   font-family: 'Ezra-medium';
-  src: url(../fonts/Ezra-Medium.ttf) format('truetype');
+  src: url(../fonts/Ezra/Ezra-Medium.ttf) format('truetype');
 }
 @font-face { /* Ezra bold */
   font-family: 'Ezra-bold';
-  src: url(../fonts/Ezra-Bold.ttf) format('truetype');
+  src: url(../fonts/Ezra/Ezra-Bold.ttf) format('truetype');
 }
 @font-face { /* Ezra black */
   font-family: 'Ezra-black';
-  src: url(../fonts/Ezra-Black.ttf) format('truetype');
+  src: url(../fonts/Ezra/Ezra-Black.ttf) format('truetype');
+}
+
+@font-face { /* Bebas Neue light*/
+  font-family: 'Bebas_light';
+  src: url(../fonts/Bebas_neue/BebasNeue-Regular.otf);
 }
 
 html {

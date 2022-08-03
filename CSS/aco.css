@@ -1,27 +1,30 @@
 .header {
   height: 11.1rem;
-  background-image: url(../images/header-page-aco.png);
-  background-position-x: -4.9rem;
-
+  background-image: url(../images/TEATRO-AMAZONAS.png);
+  background-position-x: -9.0rem;
   background-size: cover;
   margin-bottom: 10.0rem;
 }
 
-.stickers {
+.acting {
+  margin-bottom: 12.8rem;
+}
+
+.stickers div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   gap: 1.6rem;
-
-  margin-bottom: 12.8rem;
+  margin-bottom: 1.6rem;
 
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .sticker:hover {
   transform: scale(1.10, 1.10);
+  transition: 200ms;
 }
 
 .wrapper svg,
@@ -35,21 +38,21 @@
 }
 
 .background-tittle {
-  background-color: var(--cc-orange-primary);
-
   width: 24.4rem;
   margin: 0 auto;
   margin-bottom: 3.2rem;
 }
 
 .background-tittle h2 {
-  font-family: var(--ff-font-title);
+  font-family: var(--ff-font-bebas-light);
   font-size: 6.4rem;
   line-height: 6.4rem;
   font-weight: 100;
   letter-spacing: -0.02em;
 
   text-align: center;
+
+  background-color: var(--cc-orange-primary);
 }
 
 .text p,
@@ -84,14 +87,11 @@
   }
   
   .header svg,
-  .wrapper svg,
-  .balance-photo img,
   .hammer-photo img {
     display: block;
   }
 
   .header {
-    background-image: url(../images/header-page-aco.png);
     background-position-x: 0;
     height: 24.0rem;
 
@@ -106,8 +106,10 @@
     margin-bottom: 30.0rem;
   }
 
-  .stickers {
+  .stickers div {
     flex-direction: row;
+    margin-bottom: 3.0rem;
+    gap: 3.4rem;
   }
 
   .wrapper {
@@ -118,9 +120,59 @@
     margin-bottom: 21.8rem;
   }
 
-  .group {
-    display: flex;
-    justify-content: space-between;
+  .background-tittle {
+    margin-bottom: 4.6rem;
+  }
+
+  .balance-photo {
+    width: 74.6rem;
+    height: 118.3rem;
+    float: right;
+  }
+
+  .hammer-photo {
+    height: 82.1rem;
+    width: 70.1rem;
+    float: left;
+  }
+
+  .balance-photo svg,
+  .balance-photo img,
+  .hammer-photo svg,
+  .hammer-photo img,
+  .text {
+    display: inline-block;
+    position: relative;
+  }
+
+  .text:nth-child(1) {
+    left: 15.9rem;
+  }
+
+  .text:nth-child(2) {
+    float: right;
+    right: 15.9rem;
+  }
+
+  .balance-photo svg {
+    right: -22.2rem;
+  }
+
+  .balance-photo img {
+    top: -101.9rem;
+  }
+
+  .hammer-photo img {
+    top: -62.0rem;
+  }
+
+  #tittle-2 {
+    width: 100%;
+  }
+
+  #tittle-2 h2 {
+    text-align: left;
+    width: fit-content;
   }
   
   .text p,
@@ -128,66 +180,22 @@
     width: 49.2rem;
 
     line-height: 2.5rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    letter-spacing: -0.02em;
+
     margin: 0 0 2.0rem;
   }
 
-  .background-tittle {
-    position: absolute;
-  }
-
-  #tittle-1 {
-    left: 15.2rem;
-    top: 111.5rem;
+  .text ul li  {
+    margin-bottom: 1.1rem;
   }
 
   .orange-line {
     border: 3px solid var(--cc-orange-primary);
     border-radius: 2px;
-
-    background-position-x: 35.0rem;
-
-    width: 30.7rem;
   }
 
   .paragraphy {
-    position: absolute;
-    top: 123.1rem;
-    left: 15.2rem;
-
     width: 47.9rem;
-  }
-
-  .balance-photo img {
-    position: absolute;
-    right: 0;
-    top: 111.6rem;
-  }
-
-  .hammer-photo img {
-    position: absolute;
-    left: 0;
-    top: 251.1rem;
-  }
-
-  .group .text ul {
-    position: absolute;
-    left: 64.2rem;
-    top: 265.0rem;
-
-    width: 43.0rem;
-  }
-
-  #tittle-2 {
-    left: 64.2rem;
-    top: 237.5rem;  
-  }
-
-  .content-information-box {
-    top: 389.0rem;
-  }
-
-  footer {
-    top: 421.6rem;
   }
 }
