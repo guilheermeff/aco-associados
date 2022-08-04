@@ -1,32 +1,23 @@
 
 .header {
-  background-image: url(../images/header-escritorio.png);
+  background-image: url(../images/FOTO-ESCRITORIO.png);
   height: 11.0rem;
   
   margin-bottom: 23.0rem;
 }
 
 .infos-about {
-  display: flex;
-  flex-direction: column;
-  gap: 15.0rem;
-}
-
-.infos-about div:nth-child(2) {
-  margin-bottom: 20.0rem;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  gap: 1.5rem;
-}
-
-.content p,
-.content img {
   width: 80%;
+  max-width: 179.0rem;
+  margin: 0 auto 35.0rem;
+}
+
+.infos-about div {
+  margin-bottom: 10.0rem;
+}
+
+.content img {
+  width: 100%;
 }
 
 .content p {
@@ -51,11 +42,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  width: 80%;
+  max-width: 30.2rem;
 }
 
 .profile img {
   border-radius: 1.0rem;
-  width: 30.2rem;
+  width: fit-content;
 }
 
 .profile-name {
@@ -68,58 +62,63 @@
   border-radius: 5px;
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1280px){
   header {
     background-color: #FFFFFF;
   }
 
   .header {
-    background-image: url(../images/header-escritorio-desktop.png);
-
     height: 23.5rem;
   }
-  
+
+  .infos-about div {
+    margin-bottom: 15.0rem;
+  }
+
   .content {
-    flex-direction: row;
-    font-size: 1.4rem;
+    height: 65.1rem;
   }
 
   .content img,
   .content p {
-    position: absolute;
+    position: relative;
+    display: inline-block;
     width: 49.7rem;
   }
 
   .content:nth-child(1) img {
-    left: 65.1rem;
-    top: 65.0rem;
+    float: right;
   }
 
   .content:nth-child(1) p {
-    left: 10.1rem;
-    top: 72.4rem;
-  }
-
-  .content:nth-child(2) img {
-    left: 15.3rem;
-    top: 142.0rem;
+    top: 10.0rem;
   }
 
   .content:nth-child(2) p {
-    left: 72.1rem;
-    top: 149.2rem;
+    float: right;
+    top: 10.0rem;
+  }
+
+  .content:nth-child(2) img {
+    top: 8.0rem;
+  }
+
+  .content p {
+    font-size: 1.6rem;
   }
 
   .acting {
-    position: absolute;
-    top: 233.0rem;
-
     width: 100%;
   }
 
   .profile-cards {
     flex-direction: row;
     justify-content: center;
+  }
+
+  .profile-photo {
+    max-width: 30.9rem;
+    max-height: 51.0rem;
   }
 
   .information-box {

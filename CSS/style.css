@@ -381,29 +381,50 @@ footer p {
 
 /* ########## end footer styles ########## */
 /* ########## start styles of article pages ########## */
+.letter {
+  margin: 1.0rem auto 7.0rem;
+  width: 80%;
+
+  max-width: 97.6rem;
+}
+
 .letter h1 {
   font-family: var(--ff-font-title);
   color: var(--cc-orange-primary);
-  font-size: 6.4rem;
-  line-height: 7.7rem;
+  font-size: 3.2rem;
 
   letter-spacing: -0.02em;
+
+  text-align: center;
+
+  margin: 6.4rem 0 3.1rem;
 }
 
-.letter p {
-  text-align: justify;
-  text-indent: 4em;
+.letter img {
+  width: 100%;
+  
+  max-width: 97.6rem;
+  max-height: 62.7rem;
 
-  font-size: 1.8rem;
-  line-height: 3.2rem;
+  margin-bottom: 6.4rem;
+}
+
+.text-letter p {
+  text-align: justify;
+  text-indent: 2em;
+
+  font-size: 1.3rem;
+  line-height: 3.0rem;
   letter-spacing: -0.02em;
   font-family: var(--ff-font-ezra-light);
   font-weight: 100;
+
+  width: 100%;
 }
 
 .letter blockquote {
-  font-size: 1.8rem;
-  line-height: 3.2rem;
+  font-size: 1.3rem;
+  line-height: 3.0rem;
   letter-spacing: -0.02em;
   font-family: var(--ff-font-ezra-light);
 
@@ -411,10 +432,11 @@ footer p {
 }
 
 blockquote {
-  margin-left: 4em;
+  margin-left: 2em;
 }
 
-blockquote strong {
+blockquote strong,
+p strong {
   font-family: var(--ff-font-ezra-bold);
 }
 /* ########## end styles of article pages ##########*/
@@ -642,21 +664,20 @@ blockquote strong {
 
   /* ########## start styles of article pages ########## */
   .letter {
-    position: absolute;
-    top: 32.6rem;
-    left: 50%;
-
-    transform: translateX(-50%);
+    margin: 19.0rem auto 19.0rem;
+    width: 70%;
   }
 
   .letter h1 {
     margin-bottom: 7.5rem;
+
+    font-size: 6.4rem;
+    line-height: 7.7rem;
+
+    text-align: left;
   }
 
   .letter img {
-    width: 92.7rem;
-    height: 62.7rem;
-
     margin-bottom: 9.5rem;
   }
 
@@ -668,13 +689,19 @@ blockquote strong {
     gap: 2.5rem;
   }
 
-  .text-letter h2 {
-    margin-bottom: 5.0rem;
+  .text-letter p {
+    text-indent: 4em;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
   }
 
-  .text-letter p {
+  .letter blockquote {
+    font-size: 1.8rem;
     line-height: 3.2rem;
-    width: 100%;
+  }
+
+  blockquote {
+    margin-left: 4em;
   }
   /* ########## end styles of article pages ########## */
 }
