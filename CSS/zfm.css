@@ -22,10 +22,21 @@ main h1 {
   margin: 0 auto 5.5rem;
 }
 
-main svg {
-  margin-bottom: 5.5rem;
-  width: 100%;
+.zfm-desktop {
+  display: none;
 }
+
+.zfm-mobile {
+  display: flex;
+  flex-direction: column;
+
+  gap: 5.5rem;
+}
+
+.zfm-mobile svg:nth-child(2) {
+  align-self: flex-end;
+}
+
 
 .newsletter {
   margin-top: 17.0rem;
@@ -42,5 +53,31 @@ footer {
 
   .header {
     height: 23.5rem;
+    margin-bottom: 9.0rem;
+  }
+
+  main h1 {
+    font-size: 6.4rem;
+    line-height: 7.7rem;
+    text-align: left;
+
+    max-width: 100.0rem;
+  }
+
+  .zfm-mobile {
+    display: none;
+  }
+
+  .zfm-desktop {
+    display: flex;
+    flex-direction: column;
+
+    gap: 7.0rem;
+    margin: 0 auto 27.7rem;
+    max-width: 198.0rem;
+  }
+
+  .zfm-desktop svg:nth-child(2) {
+    align-self: flex-end;
   }
 }
