@@ -23,7 +23,7 @@
   --ff-font-ezra-medium: 'Ezra-medium', cursive;
   --ff-font-ezra-bold: 'Ezra-bold', cursive;
   --ff-font-ezra-black: 'Ezra-black', cursive;
-  --ff-font-bebas-light: 'Bebas_light', cursive;
+  --ff-font-bebas-light: 'Big Shoulders Display', cursive;
 }
 
 @font-face { /* Ezra light */
@@ -380,15 +380,17 @@ footer p {
 }
 
 /* ########## end footer styles ########## */
-/* ########## start styles of article pages ########## */
-.letter {
+/* ########## start styles of letter pages and article pages ########## */
+.letter,
+.post {
   margin: 1.0rem auto 7.0rem;
   width: 80%;
 
   max-width: 97.6rem;
 }
 
-.letter h1 {
+.letter h1,
+.post h2 {
   font-family: var(--ff-font-title);
   color: var(--cc-orange-primary);
   font-size: 3.2rem;
@@ -400,16 +402,20 @@ footer p {
   margin: 6.4rem 0 3.1rem;
 }
 
-.letter img {
+.letter img,
+.content-date img {
   width: 100%;
   
   max-width: 97.6rem;
   max-height: 62.7rem;
 
   margin-bottom: 6.4rem;
+
+  border-radius: 15px;
 }
 
-.text-letter p {
+.text-letter p,
+.post p {
   text-align: justify;
   text-indent: 2em;
 
@@ -422,7 +428,8 @@ footer p {
   width: 100%;
 }
 
-.letter blockquote {
+.letter blockquote,
+.post blockquote {
   font-size: 1.3rem;
   line-height: 3.0rem;
   letter-spacing: -0.02em;
@@ -439,8 +446,10 @@ blockquote strong,
 p strong {
   font-family: var(--ff-font-ezra-bold);
 }
-/* ########## end styles of article pages ##########*/
+/* ########## end styles of letter pages ##########*/
+/* ########## start styles of posts pages ##########*/
 
+/* ########## end styles of posts pages ##########*/
 @media(min-width: 1280px) {
 
   .hide {
@@ -650,6 +659,10 @@ p strong {
     height: 100%;
   }
 
+  .section-title {
+    margin-bottom: 2.5rem;
+  }
+
   footer {
     
     height: 9.9rem;
@@ -663,12 +676,14 @@ p strong {
   }
 
   /* ########## start styles of article pages ########## */
-  .letter {
+  .letter,
+  .post {
     margin: 19.0rem auto 19.0rem;
     width: 70%;
   }
 
-  .letter h1 {
+  .letter h1,
+  .post h2 {
     margin-bottom: 7.5rem;
 
     font-size: 6.4rem;
@@ -677,25 +692,29 @@ p strong {
     text-align: left;
   }
 
-  .letter img {
+  .letter img,
+  .content-date img {
     margin-bottom: 9.5rem;
   }
 
-  .text-letter {
-    width: 91.3rem;
+  .text-letter,
+  .post {
+    max-width: 91.3rem;
 
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
   }
 
-  .text-letter p {
+  .text-letter p,
+  .post p {
     text-indent: 4em;
     font-size: 1.8rem;
     line-height: 3.2rem;
   }
 
-  .letter blockquote {
+  .letter blockquote,
+  .post blockquote {
     font-size: 1.8rem;
     line-height: 3.2rem;
   }

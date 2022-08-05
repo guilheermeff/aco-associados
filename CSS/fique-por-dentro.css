@@ -23,24 +23,37 @@ section.header::before {
 
 }
 
-.posts {
-  margin-bottom: 10.0rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  gap: 2.5rem;
+.soft-line {
+  margin-bottom: 5.0rem;
 }
 
-.post {
+.posts ul {
+  width: 90%;
+  max-width: 30.9rem;
+
+  margin: 0 auto 13.0rem;
+}
+
+.posts ul li:hover {
+  transform: scale(1.10, 1.10);
+  transition: 300ms;
+}
+
+.posts ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.previewPost {
   width: 30.9rem;
   background-color: var(--bc-postColor);
 
   border-radius: 1.5rem;
+
+  height: 100%;
 }
 
-.content-date {
+.previewContent-date {
   height: 20.9rem;
 }
 
@@ -61,27 +74,32 @@ section.header::before {
 .year {
   height: 2.0rem;
   width: 100%;
+  text-align: center;
+
+  font-family: var(--ff-font-bebas-light);
 }
 
 .day {background-color: var(--cc-orange-primary); border-radius: 5px 5px 0 0;}
 .month {background-color: var(--cc-orange-light);}
 .year {background-color: var(--cc-orange-dark);}
 
-.post img {
+.previewPost img {
   width: 100%;
 
   border-radius: 1.5rem 1.5rem 0 0;
+
+  height: 21.2rem;
 }
 
-.post h2 {
-  font-family: var(--ff-font-title);
+.previewPost h2 {
+  font-family: var(--ff-font-bebas-light);
   font-size: 3.2rem;
   line-height: 3.9rem;
   letter-spacing: -0.02em;
   padding: 2.0rem 1.95rem 1.0rem;
 }
 
-.post p {
+.previewPost p {
   width: 27.0rem;
 
   font-family: var(--ff-font-ezra-light);
@@ -90,21 +108,37 @@ section.header::before {
   letter-spacing: -0.02em;
 
   text-align: justify;
+  text-indent: 2em;
 
   margin: 0 auto 2.05rem;
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1280px){
   header {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF;  
   }
-
+  
   .header {
-    height: 34.2rem;
+    height: 24.2rem;
+    background-position-x: 0;
+
+    margin-bottom: 14.0rem;
   }
 
   section.header::before {
-    height: 34.2rem;
+    height: 24.2rem;
     top: 16.4rem;
+  }
+
+  .posts {
+    margin-bottom: 35.7rem;
+  }
+
+  .posts ul {
+    max-width: 97.5rem;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3.0rem;
   }
 }

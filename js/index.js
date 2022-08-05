@@ -22,6 +22,10 @@ router.add("/direitoTrabalhista", "/pages/direito-trabalhista.html")
 router.add("/direitoPatrimonial", "/pages/direito-patrimonial.html")
 router.add("/direitoDigital", "/pages/direito-digital.html")
 
+router.add("/tributacaoNaEraDigital", "/pages/articles/tributacao-na-era-digital.html")
+router.add("/certidaoDividaAtiva", "/pages/articles/certidao-divida-ativa.html")
+router.add("/repercussaoDosIncentivosFiscais", "pages/articles/repercussao-dos-incentivos-fiscais.html")
+
 router.handle()
 // (find line function) window.route = () => router.route()
 window.onpopstate = () => router.handle()
