@@ -1,6 +1,6 @@
 .header {
   height: 11.1rem;
-  background-image: url(../images/TEATRO-AMAZONAS.png);
+  background-image: url(../images/acoPage/header-aco.png);
   background-position-x: -9.0rem;
   background-size: cover;
   margin-bottom: 10.0rem;
@@ -61,14 +61,11 @@
   font-size: 1.3rem;
   line-height: 2.2rem;
   letter-spacing: -0.02em;
-  text-align: justify;
 }
 
 .text p {
   width: 33.7rem;
   margin: 0 auto 2.0rem;
-
-  text-indent: 2em;
 }
 
 .text p strong {

@@ -2,10 +2,10 @@ import { Router } from "./router.js";
 import { onScroll } from "./topbutton.js";
 import { mobileMenu } from "./mobile.menu.js";
 
-
-const scroll = onScroll()
-const mobilemenu = mobileMenu()
 const router = new Router()
+const mobilemenu = mobileMenu()
+const scroll = onScroll()
+
 
 router.add("/", "/pages/home.html")
 router.add("/home", "/pages/home.html")

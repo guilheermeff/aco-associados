@@ -1,7 +1,7 @@
 export function onScroll() {
   const backToTopButton = document.querySelector('.backToTopButton')
 
-  window.addEventListener('scroll', () => {
+  document.addEventListener('scroll', () => {
     showBackToTopButtonOnScroll()
   })
 

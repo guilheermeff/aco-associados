@@ -1,6 +1,6 @@
 .header {
   
-  background-image: url(../images/maquina-de-datilografar.png);
+  background-image: url(../images/fiquepordentroPage/header-fique-por-dentro.png);
   background-size: cover;
   background-position-x: -9.0rem;
   margin-bottom: 10.0rem;
@@ -32,6 +32,10 @@ section.header::before {
   max-width: 30.9rem;
 
   margin: 0 auto 13.0rem;
+}
+
+.posts ul li {
+  margin-bottom: 1.5rem;
 }
 
 .posts ul li:hover {
@@ -107,9 +111,6 @@ section.header::before {
   line-height: 2.5rem;
   letter-spacing: -0.02em;
 
-  text-align: justify;
-  text-indent: 2em;
-
   margin: 0 auto 2.05rem;
 }
 
@@ -121,6 +122,7 @@ section.header::before {
   .header {
     height: 24.2rem;
     background-position-x: 0;
+    background-position-y: -9.0rem;
 
     margin-bottom: 14.0rem;
   }
@@ -140,5 +142,9 @@ section.header::before {
 
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 3.0rem;
+  }
+
+  .posts ul li {
+    margin-bottom: 0;
   }
 }

@@ -16,8 +16,8 @@
   --cc-grey: hsl(0, 0%, 16%);
   --cc-color-buttons: #297231;
   --cc-btn-submit-hover: hsl(26, 81%, 42%);
-  --bc-formColor: hsl(0, 0%, 84%);
-  --bc-postColor: hsl(0, 0%, 76%);
+  --bc-formColor: hsl(0, 0%, 92%);
+  --bc-postColor: hsl(0, 0%, 92%);
   --ff-font-title: 'Bebas Neue', cursive;
   --ff-font-ezra-light: 'Ezra-light', cursive;
   --ff-font-ezra-medium: 'Ezra-medium', cursive;
@@ -79,6 +79,12 @@ header {
   display: none;
 }
 
+.box a:hover,
+#logo:hover {
+  transform: scale(1.10, 1.10);
+  transition: 200ms;
+}
+
 .box-nav-menu {
   display: flex;
   justify-content: space-between;
@@ -89,10 +95,6 @@ header {
 
 .box-nav-menu a svg:nth-child(2) {
   display: none;
-}
-
-header a  img {
-  width: 80%;
 }
 
 .openMenu,
@@ -109,7 +111,7 @@ header a  img {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 5;
+  z-index: 20;
 
   display: flex;
   flex-direction: column;
@@ -171,6 +173,8 @@ header a  img {
   width: 71.08%;
 
   margin: 0 auto 8.0rem;
+
+  display: none;
 }
 
 .newsletter-image {
@@ -349,14 +353,19 @@ footer {
   padding: 2.0rem;
 }
 footer p {
-  font-family: 'Arial', sans-serif;
+  font-family: 'akrobat', sans-serif;
   font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 2.5rem;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  letter-spacing: -0.02em;
 
   color: #FFFFFF;
 
   width: 90%;
+}
+
+footer p span {
+  font-weight: 900;
 }
 
 .backToTopButton {
@@ -416,9 +425,7 @@ footer p {
 
 .text-letter p,
 .post p {
-  text-align: justify;
   text-indent: 2em;
-
   font-size: 1.3rem;
   line-height: 3.0rem;
   letter-spacing: -0.02em;
@@ -428,14 +435,21 @@ footer p {
   width: 100%;
 }
 
+.post p {
+  text-align: justify;
+}
+
+.post p {
+  text-indent: 2em;
+}
+
 .letter blockquote,
 .post blockquote {
+  text-indent: 2em;
   font-size: 1.3rem;
   line-height: 3.0rem;
   letter-spacing: -0.02em;
   font-family: var(--ff-font-ezra-light);
-
-  text-align: justify;
 }
 
 blockquote {
@@ -446,10 +460,7 @@ blockquote strong,
 p strong {
   font-family: var(--ff-font-ezra-bold);
 }
-/* ########## end styles of letter pages ##########*/
-/* ########## start styles of posts pages ##########*/
-
-/* ########## end styles of posts pages ##########*/
+/* ########## end styles of letter and post pages ##########*/
 @media(min-width: 1280px) {
 
   .hide {
@@ -541,7 +552,7 @@ p strong {
   }
 
   .newsletter {
-    display: flex;
+    display: none;
     justify-content: center;
 
     margin: 0 auto 17.3rem;
@@ -671,8 +682,7 @@ p strong {
   }
 
   footer p {
-    font-size: 2.0rem;
-    letter-spacing: -0.02em;
+    font-size: 1.4rem;
   }
 
   /* ########## start styles of article pages ########## */
@@ -715,6 +725,7 @@ p strong {
 
   .letter blockquote,
   .post blockquote {
+    text-indent: 4em;
     font-size: 1.8rem;
     line-height: 3.2rem;
   }
