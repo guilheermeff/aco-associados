@@ -388,8 +388,9 @@ main .top {
     grid-row-start: 2;
   }
 
-  .insta-grid a:hover {
-    transform: scale(1.10, 1.10);
+  .insta-grid a:hover,
+  .cards .card:hover {
+    transform: scale(1.06, 1.06);
     transition: 200ms;
   }
 
